@@ -2182,7 +2182,7 @@ button.mfp-arrow, button.mfp-close {
   }
 }
 
-@media screen and (max-width:991px) {
+@media screen and (max-width:768px) {
   #nav-bar, #nav-bar.bottom-bar.stick-it, #nav-bar.top-bar.stick-it {
     height: 100px
   }
@@ -2233,6 +2233,10 @@ button.mfp-arrow, button.mfp-close {
     top: 100%;
     left: 0;
     right: 0
+  }
+
+  #mobile-nav, #nav-menu li, #nav-menu ul, #nav-menu ul ul {
+    position: relative
   }
 
   .transparent.stick-it #nav-menu {
@@ -2444,7 +2448,7 @@ button.mfp-arrow, button.mfp-close {
     border: none
   }
 
-  @media screen and (max-width:991px) and (orientation :landscape) {
+  @media screen and (max-width:768px) and (orientation :landscape) {
     #nav-menu {
       height: 230px !important
     }
