@@ -2182,7 +2182,7 @@ button.mfp-arrow, button.mfp-close {
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:100px) {
   #nav-bar, #nav-bar.bottom-bar.stick-it, #nav-bar.top-bar.stick-it {
     height: 100px
   }
@@ -2448,7 +2448,7 @@ button.mfp-arrow, button.mfp-close {
     border: none
   }
 
-  @media screen and (max-width:300px) and (orientation :landscape) {
+  @media screen and (max-width:100px) and (orientation :landscape) {
     #nav-menu {
       height: 230px !important
     }
