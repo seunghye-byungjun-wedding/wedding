@@ -123,11 +123,11 @@ img.with-border {
   position: relative;
   height: inherit;
   width: 100%;
-  padding: 0 30px
+  padding: 10px
 }
 
 #nav-bar.bottom-bar.stick-it, #nav-bar.top-bar.stick-it {
-  height: 145px;
+  height: 70px;
   width: 100%;
   background-color: #FFF;
   z-index: 1500
