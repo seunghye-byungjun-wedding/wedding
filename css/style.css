@@ -243,7 +243,7 @@ img.with-border {
 
 #nav-menu>li a {
   display: inline-block;
-  padding: 18px;
+  padding: 5px;
   color: #666
 }
 
@@ -2049,7 +2049,7 @@ footer .image-divider.fixed-height {
 }
 
 #where-when {
-  padding: 120px 0 0
+  padding: 100px 0 0
 }
 
 .and {
@@ -2067,7 +2067,7 @@ footer .image-divider.fixed-height {
 }
 
 #gallery-section {
-  padding: 140px 0
+  padding: 100px 0
 }
 
 #gallery-section .photo-item {
@@ -2120,7 +2120,7 @@ h2#dont-miss-it-title {
 }
 
 #bridesmaid-section, #gift-section, #groomsmen-section, #rsvp-section {
-  padding: 140px 0
+  padding: 70px 0
 }
 
 .bridesmaid-item, .groomsmen-item {
