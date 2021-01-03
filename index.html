@@ -31,7 +31,8 @@
 	<!-- Icon -->
 	<link rel="stylesheet" href="css/fonts/fontello/css/fontello.css" type="text/css" media="screen" />
 	<!-- Font -->
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@1.0/nanumbarungothicsubset.css">	
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 
 	<!-- Theme CSS -->
@@ -220,31 +221,31 @@
 		}
 
 		#toast {
-    position: fixed;
-    bottom: 30px;
-    left: 50%;
-    padding: 10px 15px;
-    transform: translate(-50%, 10px);
-    border-radius: 30px;
-    overflow: hidden;
-    font-size: 1.5rem;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s, visibility .5s, transform .5s;
-    background: rgba(0, 0, 0, .35);
-    color: #fff;
-    z-index: 100000;
-}
+			position: fixed;
+			bottom: 30px;
+			left: 50%;
+			padding: 10px 15px;
+			transform: translate(-50%, 10px);
+			border-radius: 30px;
+			overflow: hidden;
+			font-size: 1.5rem;
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity .5s, visibility .5s, transform .5s;
+			background: rgba(0, 0, 0, .35);
+			color: #fff;
+			z-index: 100000;
+		}
 
-#toast.reveal {
-    opacity: 1;
-    visibility: visible;
-    transform: translate(-50%, 0)
-}
+		#toast.reveal {
+			opacity: 1;
+			visibility: visible;
+			transform: translate(-50%, 0)
+		}
 
-body {
-  font-family: 'Nanum Barun Gothic', sans-serif;
-}
+		body {
+			font-family: 'Nanum Barun Gothic', sans-serif;
+		}
 	</style>
 
 
@@ -348,7 +349,7 @@ body {
 
 					<!-- IMG LOGO
                     		<div class="img-logo">
-                    			<img src="images/slide1.jpg">
+                    			<img data-src="images/slide1.jpg">
                     		</div>-->
 					<!-- </div> -->
 					<!-- END of LOGO -->
@@ -393,7 +394,7 @@ body {
 						<div class="photo-item animation fadeInLeft">
 
 							<!--PHOTO-->
-							<img src="./images/main/intro.jpg" alt="" class="hover-animation image-zoom-in">
+							<img data-src="./images/main/intro.jpg" alt="" class="lozad hover-animation image-zoom-in">
 
 						</div>
 						<!--END of PHOTO-ITEM-->
@@ -535,7 +536,7 @@ body {
 						<div class="photo-item animation fadeIn">
 
 							<!--PHOTO-->
-							<img src="./images/main/g1.jpg" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g1.jpg" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
@@ -569,7 +570,7 @@ body {
 						<div class="photo-item animation fadeIn">
 
 							<!--PHOTO-->
-							<img src="./images/main/g6.jpg" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g6.jpg" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
@@ -603,7 +604,7 @@ body {
 						<div class="photo-item animation fadeIn">
 
 							<!--PHOTO-->
-							<img src="./images/main/g7.jpg" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g7.jpg" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
@@ -637,7 +638,7 @@ body {
 						<div class="photo-item animation fadeIn">
 
 							<!--PHOTO-->
-							<img src="./images/main/g10.jpg" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g10.jpg" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
@@ -672,7 +673,7 @@ body {
 						<div class="photo-item animation fadeIn">
 
 							<!--PHOTO-->
-							<img src="./images/main/g11.JPG" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g11.JPG" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
@@ -706,7 +707,7 @@ body {
 						<div class="photo-item animation fadeIn">
 
 							<!--PHOTO-->
-							<img src="./images/main/g12.JPG" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g12.JPG" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
@@ -742,7 +743,7 @@ body {
 						<!--PHOTO-ITEM-->
 						<div class="photo-item animation fadeIn">
 							<!--PHOTO-->
-							<img src="./images/main/g2.jpg" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g2.jpg" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
 							</div>
@@ -771,7 +772,7 @@ body {
 						<!--PHOTO-ITEM-->
 						<div class="photo-item animation fadeIn">
 							<!--PHOTO-->
-							<img src="./images/main/g3.jpg" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g3.jpg" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
 							</div>
@@ -802,7 +803,7 @@ body {
 						<div class="photo-item animation fadeIn">
 
 							<!--PHOTO-->
-							<img src="./images/main/g4.jpg" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g4.jpg" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
@@ -836,7 +837,7 @@ body {
 						<div class="photo-item animation fadeIn">
 
 							<!--PHOTO-->
-							<img src="./images/main/g5.jpg" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g5.jpg" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
@@ -869,7 +870,7 @@ body {
 						<!--PHOTO-ITEM-->
 						<div class="photo-item animation fadeIn">
 							<!--PHOTO-->
-							<img src="./images/main/g8.JPG" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g8.JPG" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
 							</div>
@@ -898,7 +899,7 @@ body {
 						<!--PHOTO-ITEM-->
 						<div class="photo-item animation fadeIn">
 							<!--PHOTO-->
-							<img src="./images/main/g9.jpg" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g9.jpg" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
 							</div>
@@ -929,7 +930,7 @@ body {
 						<!--PHOTO-ITEM-->
 						<div class="photo-item animation fadeIn">
 							<!--PHOTO-->
-							<img src="./images/main/g14.jpg" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g14.jpg" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
 							</div>
@@ -959,7 +960,7 @@ body {
 						<!--PHOTO-ITEM-->
 						<div class="photo-item animation fadeIn">
 							<!--PHOTO-->
-							<img src="./images/main/g13.jpg" alt="" class="hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
+							<img data-src="./images/main/g13.jpg" alt="" class="lozad hover-animation image-zoom-rotate" style="transition: none 0s ease 0s;">
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in" style="transition: none 0s ease 0s;">
 							</div>
@@ -1044,7 +1045,7 @@ body {
 				<div class="row">
 					<div class="col-sm-12 animation fadeIn">
 						<div class="photo-item animation fadeIn">
-							<img src="./images/map.jpg" style="width: 100%; margin-bottom:20px;" />
+							<img data-src="./images/map.jpg" style="width: 100%; margin-bottom:20px;" />
 
 							<!--PHOTO OVERLAY-->
 							<div class="layer wh100 hidden-black-overlay hover-animation fade-in">
@@ -1304,7 +1305,6 @@ body {
 	<!-- Owl Carousel -->
 	<script src="js/owlcarousel/owl.carousel.js"></script>
 
-	<script src="js/temp.js"></script>
 	<!-- Google Map -->
 	<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXWJbesu0SUgeQNwr5m89w2ZTw4cuWOtU"></script> -->
 	<!-- <script src="js/markerlabel/markerwithlabel.js"></script> -->
@@ -1317,6 +1317,13 @@ body {
 	<!-- Custom Additional Script -->
 	<script type="text/javascript" src="js/main-slider-fade.js"></script>
 
+	<script src="js/temp.js"></script>
+
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+	<script>
+		const observer = lozad();
+		observer.observe();
+	</script>
 	<script>
 		// Get the modal
 		var modal = document.getElementById("myModal");
