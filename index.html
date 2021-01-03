@@ -40,10 +40,6 @@
 
 	<!-- Skin CSS -->
 	<style>
-		body {
-			font-family: Arial, Helvetica, sans-serif;
-		}
-
 		/* The Modal (background) */
 		.modal {
 			display: none;
@@ -108,6 +104,73 @@
 		}
 
 		.modal-footer {
+			padding: 2px 16px;
+			color: white;
+		}
+
+		.modal2 {
+			display: none;
+			/* Hidden by default */
+			position: fixed;
+			/* Stay in place */
+			z-index: 1;
+			/* Sit on top */
+			left: 0;
+			top: 0;
+			width: 100%;
+			/* Full width */
+			height: 100%;
+			/* Full height */
+			overflow: auto;
+			/* Enable scroll if needed */
+			background-color: rgb(0, 0, 0);
+			/* Fallback color */
+			background-color: rgba(0, 0, 0, 0.4);
+			/* Black w/ opacity */
+			-webkit-animation-name: fadeIn;
+			/* Fade in the background */
+			-webkit-animation-duration: 0.4s;
+			animation-name: fadeIn;
+			animation-duration: 0.4s
+		}
+
+		/* Modal Content */
+		.modal-content2 {
+			position: fixed;
+			bottom: 0;
+			background-color: #fefefe;
+			width: 100%;
+			-webkit-animation-name: slideIn;
+			-webkit-animation-duration: 0.4s;
+			animation-name: slideIn;
+			animation-duration: 0.4s
+		}
+
+		/* The Close Button */
+		.modal-close2 {
+			color: black;
+			float: right;
+			font-size: 28px;
+			font-weight: bold;
+		}
+
+		.modal-close2:hover,
+		.modal-close2:focus {
+			color: #000;
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+		.modal-header2 {
+			padding: 2px 16px;
+			color: white;
+		}
+
+		.modal-body2 {
+			padding: 5px 16px;
+		}
+
+		.modal-footer2 {
 			padding: 2px 16px;
 			color: white;
 		}
@@ -1103,8 +1166,8 @@
 							<div id="myModal2" class="modal2">
 
 								<!-- Modal content -->
-								<div class="modal-content">
-									<div class="modal-body">
+								<div class="modal-content2">
+									<div class="modal-body2">
 										<span class="modal-close2">&times;</span>
 										<br><br>
 										<p>모) 박상임: 하나 443-910005-70307</p>
