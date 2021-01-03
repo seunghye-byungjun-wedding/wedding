@@ -24,5 +24,5 @@ function toast(string) {
             document.getElementById("toast").classList.remove("reveal")
         }, 1000)
     toast.classList.add("reveal"),
-        toast.innerHTML = string +  + "<br>복사되었습니다"
+        toast.innerHTML = string + "<br>복사되었습니다"
 }
