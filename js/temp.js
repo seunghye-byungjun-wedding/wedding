@@ -7,7 +7,7 @@ function copyToClipboard(id) {
     elem.select();
     document.execCommand("copy");
     document.body.removeChild(elem);
-    toast(text + "가 복사되었습니다");
+    toast(text + "가 복사됨");
   
   //alert("copyText : " + text);
   
