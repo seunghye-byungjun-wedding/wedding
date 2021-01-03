@@ -7,7 +7,7 @@ function copyToClipboard(id) {
     elem.select();
     document.execCommand("copy");
     document.body.removeChild(elem);
-    toast(text + "<br>복사되었습니다");
+    toast(text);
 }
 
 
@@ -24,5 +24,5 @@ function toast(string) {
             document.getElementById("toast").classList.remove("reveal")
         }, 1000)
     toast.classList.add("reveal"),
-        toast.innerText = string
+        toast.innerHTML = string + <br> + "복사되었습니다"
 }
